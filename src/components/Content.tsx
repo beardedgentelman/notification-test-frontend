@@ -70,6 +70,7 @@ const Content: FC<ContentProps> = () => {
 
     try {
       fetch("https://notification-backend-gamma.vercel.app/schedule-email", {
+        mode: 'cors',
         method: "POST",
         headers: {
           "Content-Type": "application/json",
