@@ -69,7 +69,7 @@ const Content: FC<ContentProps> = () => {
     };
 
     try {
-      fetch("https://notification-backend-gamma.vercel.app/schedule-email", {
+      fetch("https://notification-test-back-production.up.railway.app/schedule-email", {
         mode: 'cors',
         method: "POST",
         headers: {
