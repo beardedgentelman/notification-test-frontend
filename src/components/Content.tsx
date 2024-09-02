@@ -69,7 +69,7 @@ const Content: FC<ContentProps> = () => {
     };
 
     try {
-      fetch("http://localhost:5000/schedule-email", {
+      fetch("https://notification-backend-2b9cvf5zv-andryis-projects.vercel.app/schedule-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
